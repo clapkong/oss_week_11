@@ -8,7 +8,7 @@
 
 ```bash
 pip install fastapi uvicorn slowapi httpx
-python3 test_main.py
+python3 test_main.py > test_result.txt
 ```
 
 예상 출력:

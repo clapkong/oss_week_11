@@ -1,0 +1,14 @@
+FastAPI 연결됨 (title=FastAPI, 경로=['/openapi.json', '/docs', '/docs/oauth2-redirect', '/redoc', '/hello'])
+----------------------------------------
+1 200 {'message': 'hello', 'time': '17:37:03'}
+2 200 {'message': 'hello', 'time': '17:37:03'}
+3 200 {'message': 'hello', 'time': '17:37:03'}
+4 200 {'message': 'hello', 'time': '17:37:03'}
+5 200 {'message': 'hello', 'time': '17:37:03'}
+6 200 {'message': 'hello', 'time': '17:37:03'}
+7 200 {'message': 'hello', 'time': '17:37:03'}
+8 200 {'message': 'hello', 'time': '17:37:03'}
+9 200 {'message': 'hello', 'time': '17:37:03'}
+10 200 {'message': 'hello', 'time': '17:37:03'}
+11 429 {'error': 'Rate limit exceeded: 10 per 1 minute'}
+테스트 통과: 10회 허용, 11회째 차단 확인
